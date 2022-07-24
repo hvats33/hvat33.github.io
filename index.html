@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Himanshu | Portfolio website</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("eMGjMhkrEFiahusux");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+       
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Projects</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+        
+      </div>
+      <div class="logo">
+        <a href="#"><span>Himanshu Vats</span></a>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello! there</div>
+        <div class="text-2">Explore my Portfolio Website</div>
+        <div class="text-3">Excited, <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Himanshu and <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            My name is Himanshu Vats. Currently, I am persuing <b>Mobile Application Development</b> Course at <b>Georgian College</b> Barrie in Canada.
+             I have done my <b>Bachelor's of Technology</b> degree in <b>Electronics</b> from <b>University of Delhi</b>, India. I have an IT work experience of 3+ years on a leading <b>CRM-Salesforce.com</b> with <b>TATA Consultancy services Ltd</b>.
+        
+        <div class="social-links">       
+        <a href="https://github.com/hvats33" class="github" target="_blank"><i class="bx bxl-github">Github</i></a>
+        <a href="https://www.linkedin.com/in/himanshuvats95" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i>LinkedIn</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Projects</h2>
+      <div class="serv-content">
+        <div class="container-fluid mt-3">
+          <h2><b>Project1: </b>We Care : We Care for Our Community </h2>
+          <br>
+          <div class="row">
+            <div class="col">
+              <div data-aos="flip-left">
+                  
+                  <img src="images/Picture1.png" alt="" style="width:260px; height: 500px" />                  
+              </div>
+            </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Picture2.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Picture3.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Picture4.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+          </div><br>
+          <p>
+            This is a very well thought Community Volunteering applications.
+            As more busier we are getting into our lives we find that we are not able to devote our time to community and there are plenty of us who sometimes need a helping hand.
+            Our app serves as the bridge between needy and the volunteers.
+            User register in our app as a volunteer or a needy. A needy request for for someone with clear requirements and a volunteer would receive notification. 
+            Volunteer checks his schedule and if he is free then he can accept the appointment request.
+          </p>
+        </div>
+
+        <div class="container-fluid mt-3">
+          <h2><b>Project2: </b> G1 Smart Test : Driving Test Preparation App </h2>
+          <br>
+          <div class="row">
+            <div class="col">
+              <div data-aos="flip-left">
+                  
+                  <img src="images/Gone1.png" alt="" style="width:260px; height: 500px" />                  
+              </div>
+            </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Gone2.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Gone3.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Gone4.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+          </div><br>
+          <p>This project will enable Android users to practice Ontario’s G1 driving test according to the latest test guidelines and questionnaire. 
+            This app provides all the information required to clear the G1 driving test such as Traffic rules and Road signs. After entering the zip code our appwill show you the nearest test center location</p>
+        </div>
+
+        <div class="container-fluid mt-3">
+          <h2><b>Project3: </b>De - Icing : Snow Cleaning App </h2>
+          <br>
+          <div class="row">
+            <div class="col">
+              <div data-aos="flip-left">
+                  
+                  <img src="images/AppScreen4.png" alt="" style="width:260px; height: 500px" />                  
+              </div>
+            </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/AppScreen5.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/AppScreen6.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/AppScreen7.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+          </div><br>
+          <p>We have plenty of snowfall in Canada every year, it's essential that snow is routinely removed from your roof, pathways and Car to prevent slipping/skidding, ice dams, water infiltration, and even roof collapse.
+            Some people/organization find it very difficult to clear the snow due to lack of time, proper knowledge, equipment, manpower or their physical inability to do things.
+            It is a landscaping service app and helps people to connect with the snow shovelers when they are in need of snow removal services. This app is the quickest way to get walk shovelled.It gives the power to the user to order a snow shoveler in a few clicks. Users can use it anywhere and at any time and get quick and transparent snow cleaning services within hours.
+             </p>
+        </div>
+        <br>
+        <div class="container-fluid mt-3">
+          <h2><b>Project4: </b>Tic Tac Toe/ Calculator : Game/Utility </h2>
+          <br>
+          <div class="row">
+            <div class="col">
+              <div data-aos="flip-left">
+                  
+                  <img src="images/Picture1.png" alt="" style="width:260px; height: 500px" />                  
+              </div>
+            </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Picture2.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Picture3.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+            <div class="col">
+              <div data-aos="flip-left">
+                
+                <img src="images/Picture4.png" alt="" style="width:260px; height: 500px" />                  
+            </div>
+          </div>
+          </div><br>
+          <p>This is a very well thought Community Volunteering applications. As more busier we are getting into our lives we find that we are not able to devote our time to community and there are plenty of us who sometimes need a helping hand. Our appserves as the bridge between needy and the volunteers. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      
+     
+        <div class="column right" data-aos="flip-right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+       
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">Himanshu Vats</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
