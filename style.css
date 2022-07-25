@@ -31,7 +31,7 @@ body{
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+   
     transition: all 0.3s ease;
 }
 
@@ -139,7 +139,7 @@ body{
     height: 100vh;
     color: #a3c7ff;
     min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+   
 }
 
 .home .max-width {
@@ -192,7 +192,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 80px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+   
 }
 section .title::before{
     content: "";
@@ -238,12 +238,13 @@ section .title1{
     transform: scale(1.05);
 }
 .about .about-content .right{
-    width: 55%;
+   margin-top: 50px;
  }
  .about .about-content .right .text{
     color: #a3c7ff;
     font-size: 25px;
     font-weight: 600;
+   
     margin-bottom: 10px;
  }
  .about .about-content .right .text span{
@@ -646,7 +647,7 @@ footer i:hover{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #FF6347; 
+    background: #f5a597; 
   }
 
 /* response media query starts */
@@ -726,7 +727,7 @@ footer i:hover{
         margin: 0 auto 60px;
     }
     .about .about-content .right{
-        flex: 100%;
+            
     }
     .services .serv-content .card{
         width: calc(50% - 10px);
